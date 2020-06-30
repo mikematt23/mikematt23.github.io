@@ -52,7 +52,7 @@ javaScriptButton.addEventListener('click',()=>{
     javaScriptContainer.style.height = '500px'
 
     projectImg1.src = ''
-    projectLink1.href = 'http://127.0.0.1:5501/Projects/Charged/Landing-page/Landing-page.html'
+    projectLink1.href = '../../Projects/Charged/Landing-page/Landing-page.html'
     projectDiv1.appendChild(projectImg1)
     projectDiv1.appendChild(projectLink1)
     projectLink1.innerHTML = "Charged"
