@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+}
+.projectFlex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-90deg);
+}
+.projectPic{
+  border-radius: 8%;
+  height:125px
+}
+.projectContainer{
+  height : 1%;
+  width: 20%;
+  transform: rotate(90deg);
+  /* overflow: hidden scroll; */
+}
+.mainContainer1{
+  height: 100vh;
+  width: 100%;
+  /* border: 1px solid rgba(1, 1, 44, 0.329); */
+  /* background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.ca%2Fpin%2F181129216234773932%2F&psig=AOvVaw2JN-y8ZM0cUWhS_SDIB7TT&ust=1581646622734000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICFz7G7zecCFQAAAAAdAAAAABAK); */
+}
+header{
+  height: 5%;
+  /* border: 1px solid red; */
+  background-color:black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+main{
+  height: 90%;
+  /* border: 1px solid green; */
+  background-image: url(https://www.sbclocal.com/wp-content/uploads/2017/10/city-night-skyline-1.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+footer{
+  height: 5%;
+  background-color: black;
+}
+h1{
+  color: ghostwhite;
+  padding: 30px;
+  animation-name: right;
+  animation-duration: 2s;
+}
+button{
+  background-color: rgba(248, 248, 255, 0.74);
+  width: 389px;
+  height: 30px;
+  border-radius: 20px;
+  animation-name: left;
+  animation-duration: 2s;
+  
+}
+a{
+  color: ghostwhite;
+}
+
+.dropDown{
+display: flex;
+flex-direction: column;
+display: inline-block;
+padding-top: 10%;
+}
+
+.dropDownContent{
+  display: none;
+  background-color: rgba(248, 248, 255, 0.473);
+  border-radius: 10px;
+}
+
+/* .dropDown:hover .dropDownContent{
+  display:block;
+} 
+.dropDownContent a{
+  color: black;
+  display: block;
+  padding: 10px;
+} */
+iframe{
+  padding: 15px;
+  width: 50%;
+  /* animation-name: rotate;
+  animation-duration: 2s; */
+}
+@media(max-width:500px){
+  button{
+    width: 300px;
+  }
+}
+@keyframes left{
+  10%{transform: translateX(-150%)}
+  90%{transform: translateX(0%)}
+  100%{}
+}
+@keyframes right{
+  10%{transform: translateX(150%);}
+  90%{transform: translateX(0%); }
+}
+@keyframes rotate{
+  0%{opacity: 0;}
+  10%{transform: rotate(180deg);}
+  /* 50%{transform: rotate(90deg);} */
+  90%{transform: rotate(0deg);}
+}
+@keyframes pulsing {
+  80% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  92% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}

@@ -1,0 +1,88 @@
+body{
+    background-color: burlywood;
+}
+.mainContainer{
+    max-width: 960;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px double black;
+    background-color: rgb(212, 209, 209);
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+h1{
+    color: black;
+    margin-left: 10px;
+    margin-bottom: -9px;
+}
+h3{
+    color: black;
+    margin-left: 10px;
+    text-align: center;
+}
+
+
+section{
+    height: 50%;
+    width: 100%;
+    background-color: brown;
+    background-color: rgb(212, 209, 209);
+    border: double 5px black;
+}
+
+.profilePic{
+    /* border: 2px solid black; */
+    height:10%;
+    width: 7%;
+    border-radius: 50%;
+    margin: 10px;
+    
+}
+.sidePage{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+}
+.top{
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+}
+.bottom{
+    border-bottom: 0px;
+    border-left: 0px;
+    border-top: 0px;
+}
+.objective{
+    margin: 10px;
+    width: 73%;
+    height: 20%;
+    float: right;
+    border-radius: 2%;
+}
+p{
+    margin: 20px;
+}
+.workHistory{
+    margin: 10px;
+    float: right;
+    width: 73%;
+    height: 40%;
+    overflow: auto;
+    border-radius: 2%;
+}
+.hobby{
+    margin: 10px;
+    float: right;
+    width: 73%;
+    height: 25%;
+    border-radius: 2%;
+}

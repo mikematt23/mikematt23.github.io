@@ -1,0 +1,60 @@
+.mainContainer{
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header{
+  height:10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+a{
+  color: ghostwhite;
+  margin-left: 11px;
+  padding: 10px;
+  font-size: x-large;
+  font-family: Impact, Charcoal, sans-serif;
+}
+h1{
+  color: ghostwhite;
+  font-family: Impact, Charcoal, sans-serif;
+  text-decoration: underline;
+}
+h2{
+  margin-top: 30px;
+  color: ghostwhite;
+  font-family: Impact, Charcoal, sans-serif;
+}
+h4{
+  color: ghostwhite;
+  font-family: Impact, Charcoal, sans-serif;
+  padding: 10px;
+
+}
+section{
+  margin-top: 2%;
+  height: 80%;
+  width: 60%;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 40px;
+}
+img{
+  height: 60%;
+  width: 50%;
+  border-radius: 40px;
+  animation-name: moveLeft;
+  animation-duration: 2s;
+}
+@keyframes moveLeft{
+  0%{margin-left: 2000px;}
+  100%{margin-left: 0px;}
+}
