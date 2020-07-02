@@ -15,15 +15,15 @@ let projectLink1 = document.getElementById("a1")
 
 let projectDiv3 = document.createElement("div")
 let projectImg3 = document.createElement('img')
-let projectLink3 = document.getElementById("a2")
+let projectLink3 = document.getElementById("a3")
 
 let projectDiv4 = document.createElement("div")
 let projectImg4 = document.createElement('img')
-let projectLink4 = document.getElementById("a3")
+let projectLink4 = document.getElementById("a4")
 
 let projectDiv5 = document.createElement("div")
 let projectImg5 = document.createElement('img')
-let projectLink5 = document.getElementById("a4")
+let projectLink5 = document.getElementById("a2")
 
 
 
