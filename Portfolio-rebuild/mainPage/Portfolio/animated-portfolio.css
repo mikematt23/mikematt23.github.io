@@ -6,6 +6,9 @@
   border: none;
   background: none;
 }
+body{
+  background-color: black;
+}
 .projectFlex{
   display: flex;
   flex-direction: column;
@@ -35,7 +38,7 @@ header{
   background-color:black;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-around;;
 }
 main{
   height: 90%;

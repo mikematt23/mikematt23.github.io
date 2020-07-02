@@ -22,7 +22,6 @@ let board = [
   square9
 ]
 
-
 function addGamePiece(selectedElement) {
   console.log("selectedElement = " + selectedElement)
   // creating element
