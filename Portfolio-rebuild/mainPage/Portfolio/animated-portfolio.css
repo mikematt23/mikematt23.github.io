@@ -71,6 +71,7 @@ button{
 }
 a{
   color: ghostwhite;
+  position: absolute;
 }
 
 .dropDown{
@@ -103,6 +104,12 @@ iframe{
 @media(max-width:500px){
   button{
     width: 300px;
+  }
+  .projectContainer{
+    transform: rotate(180deg);
+  }
+  .projectFlex{
+    transform: rotate(180deg);
   }
 }
 @keyframes left{
