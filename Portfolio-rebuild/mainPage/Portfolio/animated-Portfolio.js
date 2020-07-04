@@ -36,7 +36,7 @@ projectDiv4.classList.add("projectFlex")
 projectImg4.classList.add('projectPic')
 projectDiv5.classList.add("projectFlex")
 projectImg5.classList.add('projectPic')
-// htmlCSSButton.addEventListener("click",()=>{
+
 
 
 
@@ -44,7 +44,6 @@ javaScriptButton.addEventListener('click',()=>{
   if(javaScriptContainer.childElementCount === 0){
     
     javaScriptContainer.style.overflow = "hidden auto"
-    //htmlCSSContainer.style.overflow ="hidden"
   
   
     javaScriptContainer.style.height = '500px'

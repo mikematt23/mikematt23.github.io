@@ -2,7 +2,7 @@ body{
     background-color: burlywood;
 }
 .mainContainer{
-    max-width: 960;
+    max-width: 880;
 }
 
 header{
@@ -87,7 +87,7 @@ p{
     border-radius: 2%;
 }
 
-@media(max-width:1199px){
+@media(max-width:1024px){
     body{
         display: flex;
         flex-direction: column;
@@ -105,11 +105,15 @@ p{
         transform: rotate(90deg);
         overflow: scroll;
         margin-left: 241px;
+        width: 168px;
+        border: double 5px black;
     }
     .top{
         transform: rotate(90deg);
         overflow: scroll;
         margin-left: 241px;
+        width: 168px;
+        border: double 5px black;
     }
     .rotate{
         transform: rotate(-90deg);
