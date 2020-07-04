@@ -52,6 +52,7 @@ iframe{
   padding: 15px;
   animation-name: moveIn;
   animation-duration: 1.5s;
+  
 }
 section:hover p{
   opacity: 1;
@@ -59,4 +60,9 @@ section:hover p{
 @keyframes moveIn{
   0%{margin-bottom:2000px}
   100%{margin-bottom: 0px;}
+}
+@media(max-width:900px){
+  iframe{
+    width: 350px;
+  }
 }

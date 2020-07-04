@@ -102,6 +102,9 @@ iframe{
   animation-duration: 2s; */
 }
 @media(max-width:500px){
+  h1{
+    font-size: 20px;
+  }
   button{
     width: 300px;
   }
@@ -109,7 +112,7 @@ iframe{
     transform: rotate(180deg);
   }
   .projectFlex{
-    transform: rotate(180deg);
+    transform: rotate(90deg);
   }
 }
 @keyframes left{
