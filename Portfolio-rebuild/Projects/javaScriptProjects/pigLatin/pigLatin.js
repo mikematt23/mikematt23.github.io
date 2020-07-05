@@ -32,16 +32,18 @@ submit.addEventListener("click",function(){
     wordArry.forEach(word => {
       console.log(word)
       for(let i =0; i<word.length; i++){
-        console.log(word[i])
+        
         if (vowels.includes(word[i]) === true) {
           words = word.substring(i) + word.substring(i,0) + "ay";
           console.log(words)
           output.push(words)
           let result = output.toString()
           document.getElementById("result").innerText = result;
+          break
         }
       }
     });
   }
+ 
   return result
 })
