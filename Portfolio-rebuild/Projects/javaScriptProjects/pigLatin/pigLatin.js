@@ -4,14 +4,14 @@ submit.addEventListener("click",function(){
   let word = document.querySelector("input").value.toLowerCase()
   word.toLowerCase()
   let wordArry = word.split(" ")
-  let vowels = "aeiou"
+  let vowels = "aeiouy"
   if(wordArry.length === 1){
     if (
       word.charAt(0) === "a" ||
       word.charAt(0) === "e" ||
       word.charAt(0) === "i" ||
       word.charAt(0) === "o" ||
-      word.charAt(0) === "u"
+      word.charAt(0) === "u" 
     ) {
       document.getElementById("result").innerText = word + "yay";
     } else {
