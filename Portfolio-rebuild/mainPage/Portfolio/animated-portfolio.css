@@ -112,7 +112,7 @@ iframe{
     transform: rotate(180deg);
   }
   .projectFlex{
-    transform: rotate(90deg);
+    transform: rotate(180deg);
   }
 }
 @keyframes left{
